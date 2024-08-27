@@ -1,0 +1,57 @@
+.ToDoList{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+button{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: green;
+  border: burlywood; 
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.addBtn{
+  background-color: black;
+}
+
+.DeleteBtn{
+  background-color: rgba(206, 6, 6, 0.979);
+  color: white;
+}
+
+input{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  border: 3px solid;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+
+}
+
+body{
+  background-color: gray;
+}
+
+.text{
+  flex: 1;
+}
